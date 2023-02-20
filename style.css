@@ -9,8 +9,7 @@ header{
 
 #logo {
   float: left;
-  margin:auto;
-  padding:10px;
+  padding:20px;
 }
 
 .menu ul{
@@ -20,8 +19,8 @@ header{
   flex-direction:row;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: space-between;
   padding:10px;
+  
 }
 
 .menu a {
@@ -46,4 +45,9 @@ header{
 
 .ordermenu a {
   color:#c5693f;
+}
+
+main{
+  background-color: rgb(112,99,80);
+  height:max-content;
 }
