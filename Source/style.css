@@ -3,7 +3,7 @@
 */
 header{
   background-color: rgb(112,99,80);
-  margin:0;
+  margin: -10px;
   height:80px;
 }
 
@@ -19,7 +19,7 @@ header{
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
   padding:10px;
 }
@@ -27,6 +27,7 @@ header{
 .menu a {
   color:white;
   text-decoration: none;
+  padding:3px;
 }
 
 .menu a:hover {
@@ -34,14 +35,15 @@ header{
   color:#c5693f;
   border: 1px solid;
   border-radius: 20px;
+  padding:10px;
   text-decoration: none;
 }
 
 .ordermenu {
   background-color: whitesmoke;
-  border: #c5693f;
+  border-radius:20px;
 }
 
 .ordermenu a {
-  color:#c5693f
+  color:#c5693f;
 }
