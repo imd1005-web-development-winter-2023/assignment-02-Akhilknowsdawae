@@ -1,15 +1,28 @@
 /*
   CSS File
 */
+.page {
+  min-width:100%;
+  min-height:100%;
+}
+
+
 header{
   background-color: rgb(112,99,80);
-  margin: -10px;
+  margin: 0;
   height:80px;
 }
 
 #logo {
   float: left;
-  padding:20px;
+  padding:10px;
+}
+
+.menu {
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  width:100%;
 }
 
 .menu ul{
@@ -19,7 +32,7 @@ header{
   flex-direction:row;
   flex-wrap: wrap;
   gap: 2rem;
-  padding:10px;
+  padding:25px;
   
 }
 
@@ -48,6 +61,6 @@ header{
 }
 
 main{
+  margin-top:30px; /* added margin to prevent content overlay*/
   background-color: rgb(112,99,80);
-  height:max-content;
 }
