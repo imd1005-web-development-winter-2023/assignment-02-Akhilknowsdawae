@@ -21,23 +21,19 @@
   </head>
   <body>
     <header>
+      <!-- Made it so that clicking the logo will send the user to the current page-->
+      <a href="#">
+        <img id="logo" src="Logo.png" width="500"/>
+      </a>
 
-      <div id="logo">
-        <img src="Logo.png" alt="Baba John's Pizzeria"/>
-      </div>
-
-      <nav>
-        <div id="menu">
+      <nav class="menu">
           <ul>
             <li><a href="#">HOME</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CONTACT US</a></li>
-            <div id="order">
-              <li><a href="#">ORDER ONLINE/PICKUP</a></li>
-            </div>
+            <li><a href="/menu">MENU</a></li>
+            <li><a href="/about">ABOUT US</a></li>
+            <li><a href="/contact">CONTACT US</a></li>
+            <li class="ordermenu"><a href="/order">ORDER ONLINE/PICKUP</a></li>
           </ul>
-        </div>
       </nav>
 
 

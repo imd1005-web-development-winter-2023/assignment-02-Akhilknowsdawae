@@ -1,3 +1,47 @@
 /*
   CSS File
 */
+header{
+  background-color: rgb(112,99,80);
+  margin:0;
+  height:80px;
+}
+
+#logo {
+  float: left;
+  margin:auto;
+  padding:10px;
+}
+
+.menu ul{
+  float:right;
+  list-style: none;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  padding:10px;
+}
+
+.menu a {
+  color:white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: white;
+  color:#c5693f;
+  border: 1px solid;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.ordermenu {
+  background-color: whitesmoke;
+  border: #c5693f;
+}
+
+.ordermenu a {
+  color:#c5693f
+}
