@@ -9,6 +9,7 @@ header{
 }
 
 .logo {
+  width: "500";
   float: left;
   padding:10px;
   overflow:hidden;
@@ -79,10 +80,12 @@ main{
   font-family: "Baskerville Old Face", serif;
 } 
 
-/*
+/* Testing hero section grid spacing. Reference: Grid.png
+
 div{
   border:red solid thin;
 }
+
 */
 
 .hero{
