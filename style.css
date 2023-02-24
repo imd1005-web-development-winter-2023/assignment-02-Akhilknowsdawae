@@ -248,7 +248,7 @@ padding-bottom:25px;
 }
 
 .middle2title{
-  font-size: 165%;
+  font-size: 160%;
   color: #341213;
   text-transform: uppercase;
   text-align: center;
@@ -256,7 +256,7 @@ padding-bottom:25px;
 
 .middle2sub {
   margin-top: 40px;
-  font-size:185%;
+  font-size:180%;
   color: #341213;
   text-transform: capitalize;
   text-align: center;
@@ -281,7 +281,7 @@ grid-template-columns: 13% 74% 13%;
   grid-template-rows: 90% 10%;
   column-gap: 90px;
   row-gap:10px;
-  width:90%;
+  width:85%;
   place-self:center;
 
   /* Used for testing border location
@@ -302,10 +302,16 @@ grid-template-columns: 13% 74% 13%;
 }
 
 .middle2-content-left-arrow{
+  padding-left: 30px;
   place-self: center;
 }
 
 .middle2-content-right-arrow{
+  padding-right: 30px;
   place-self: center;
 }
 
+.middle3{
+  margin-top:90px;
+  background-color: #C2693F;
+}
