@@ -1,11 +1,11 @@
 header{
   background-color: rgb(112,99,80);
   margin: none;
-  height:80px;
+  height:75px;
+  width:100%;
   overflow:hidden;
   position:fixed;
   top:0;
-  width:100%;
 }
 
 .logo {
@@ -30,7 +30,7 @@ header{
   flex-direction:row;
   flex-wrap: wrap;
   gap: 2rem;
-  padding:25px;
+  padding:23px;
   
 }
 
@@ -81,10 +81,9 @@ main{
 } 
 
 /* Testing grid spacing. Reference: Grid1.png & Grid2.png*/
-/*div{
+div{
   border:red solid thin;
-}*/
-
+}
 
 .hero{
   display:grid;
@@ -104,7 +103,12 @@ main{
 }
 
 .right img{
-  width:100%;
+  width:90%;
+  margin-left:110px;
+}
+
+.left {
+  padding-left:50px;
 }
 
 .top-content-main {
@@ -171,7 +175,6 @@ main{
   font-size:140%;
   text-align: center;
   padding-top:20px;
-  padding-right:40px;
 }
 
 .top-content-footer-content a{
@@ -190,7 +193,7 @@ main{
   grid-template-rows: 50% 50%;
   column-gap: 10px;
   row-gap:10px;
-  margin-left: 220px;
+  margin-left: 255px;
 }
 
 .middle-top{
@@ -216,7 +219,6 @@ padding-top:30px;
 }
 
 .middle-content-top-3 {
-padding-left: 25px;
 padding-bottom:25px;
 }
 
@@ -224,11 +226,16 @@ padding-bottom:25px;
   padding-top:15px;
 }
 
+.middle-content-bottom-3{
+  width:99%;
+}
+
 .middle-bottom{
   margin-top: 50px;
   text-transform: uppercase;
   font-size:140%;
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .middle-bottom a {
@@ -239,3 +246,65 @@ padding-bottom:25px;
   padding:10px;
   text-decoration: none;
 }
+
+.middle2title{
+  font-size: 155%;
+  color: #341213;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.middle2sub {
+  margin-top: 20px;
+  font-size:180%;
+  color: #341213;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.middle2-content {
+margin-top: 20px;
+display:grid;
+grid-template-columns: 13% 74% 13%;
+}
+
+.middle2 h4{
+  text-align: center;
+  text-transform:capitalize;
+  font-size: 150%;
+  color:#341213;
+}
+
+.middle2-content-cards{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 90% 10%;
+  column-gap: 90px;
+  row-gap:20px;
+  width:90%;
+  place-self:center;
+
+  /* Used for testing border location
+  /* border:green solid thin; */
+}
+
+.middle2-content-1-img{
+  place-self: center;
+}
+
+.middle2-content-2-img{
+  place-self: center;
+}
+
+.middle2-content-3-img{
+  place-self: center;
+}
+
+.middle2-content-left-arrow{
+  place-self: center;
+}
+
+.middle2-content-right-arrow{
+  place-self: center;
+}
+
