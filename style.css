@@ -76,14 +76,14 @@ body{
 }
 
 main{
-  margin-top:80px;
+  margin-top:75px;
   font-family: "Baskerville Old Face", serif;
 } 
 
 /* Testing grid spacing. Reference: Grid1.png & Grid2.png*/
-div{
+/* div{
   border:red solid thin;
-}
+} */
 
 .hero{
   display:grid;
@@ -197,7 +197,7 @@ div{
 }
 
 .middle-top{
-  margin-top: 5%;
+  margin-top: 3%;
   font-size:160%;
   color: #341213;
   text-transform: capitalize;
@@ -235,7 +235,7 @@ padding-bottom:25px;
   text-transform: uppercase;
   font-size:140%;
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 85px;
 }
 
 .middle-bottom a {
@@ -248,15 +248,15 @@ padding-bottom:25px;
 }
 
 .middle2title{
-  font-size: 155%;
+  font-size: 165%;
   color: #341213;
   text-transform: uppercase;
   text-align: center;
 }
 
 .middle2sub {
-  margin-top: 20px;
-  font-size:180%;
+  margin-top: 40px;
+  font-size:185%;
   color: #341213;
   text-transform: capitalize;
   text-align: center;
@@ -271,7 +271,7 @@ grid-template-columns: 13% 74% 13%;
 .middle2 h4{
   text-align: center;
   text-transform:capitalize;
-  font-size: 150%;
+  font-size: 180%;
   color:#341213;
 }
 
@@ -280,7 +280,7 @@ grid-template-columns: 13% 74% 13%;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 90% 10%;
   column-gap: 90px;
-  row-gap:20px;
+  row-gap:10px;
   width:90%;
   place-self:center;
 
@@ -289,6 +289,7 @@ grid-template-columns: 13% 74% 13%;
 }
 
 .middle2-content-1-img{
+  width:110%;
   place-self: center;
 }
 
