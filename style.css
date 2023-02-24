@@ -72,7 +72,7 @@ header{
 }
 
 body{
-  background-color: rgb(238,232,186);
+  background-color: rgb(236, 231, 193);
 }
 
 main{
@@ -88,6 +88,21 @@ main{
 .hero{
   display:grid;
   grid-template-columns: 50% 50%;
+}
+
+/* Referenced background image opacity code: https://coder-coder.com/background-image-opacity/ */
+.hero::before {    
+  content: "";
+  background-image: url('banner.jpg');
+  background-color: #464646;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 75px;
+  right: 820px;
+  bottom: 100px;
+  left: 0px;
+  opacity: 0.1;
 }
 
 .top-content-middle{
@@ -314,4 +329,12 @@ grid-template-columns: 13% 74% 13%;
 .middle3{
   margin-top:90px;
   background-color: #C2693F;
+}
+
+.middle3-title{
+  text-align: center;
+  font-size: 160%;
+  color:#531A18;
+  text-transform: capitalize;
+  font-weight: lighter;
 }
