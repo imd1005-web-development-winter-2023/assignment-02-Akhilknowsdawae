@@ -31,7 +31,6 @@ header{
   flex-wrap: wrap;
   gap: 2rem;
   padding:23px;
-  
 }
 
 .menu2 a {
@@ -370,4 +369,79 @@ grid-template-columns: 13% 74% 13%;
   text-transform: capitalize;
   font-size:40px;
   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: rgb(112,99,80);
+  height:120px;
+  width:100%;
+  padding-top:10px;
+  margin-top:90px;
+}
+
+footer p{
+  margin-left:5px;
+  color:white;
+}
+
+
+.logo2 {
+  width: 500px;
+  float: left;
+  padding-top:10px;
+  margin-left:10px;
+}
+
+.menufoot {
+  width:100%;
+}
+
+.menufoot ul{
+  float: right;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top:10px;
+  font-size: 120%;
+}
+
+.menufooter a {
+  color:white;
+  text-decoration: none;
+  border-radius: 20px;
+  padding:10px;
+  border: 2px transparent solid;
+}
+
+
+.menufooter a:hover {
+  background-color: white;
+  color:#c5693f;
+  border: 2px solid;
+  border-radius: 20px;
+  padding:10px;
+  text-decoration: none;
 }
