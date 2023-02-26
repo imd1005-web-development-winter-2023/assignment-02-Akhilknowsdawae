@@ -474,18 +474,109 @@ grid-template-columns: 13% 74% 13%;
   max-height: 80%;
 }
 
+.footer-top{
+  margin-top:120px;
+  display:grid;
+  grid-template-columns: 50% 700px;
+  gap:20px;
+}
 
+.footer-top h4{
+  font-size: 45px;
+  color:#341213;
+}
 
+.left-container{
+  display:grid;
+  grid-template-rows: 200px 150px 200px;
+  margin-left:10%;
+}
 
+.timingtitle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.timingtitle img{
+  max-width: 50%;
+  margin-left:30px;
+}
 
+.locationtitle{
+  display:grid;
+  grid-template-columns: 10% 30% 30%;
+}
 
+.locationlorem{
+  padding-top: 10px;
+}
 
+.find{
+  padding-top: 10px;
+}
 
+.phone{
+  padding-top:5px;
+}
 
+.follow{
+  padding-top:15px;
+}
 
+.special{
+  padding-top:5px;
+  color:#8E2C28;
+  font-size:120%;
+  text-decoration: none;
+}
 
+.telephonetitle{
+  display:grid;
+  grid-template-columns: 10% 30% 30%;
+}
 
+.followtitle{
+  display:grid;
+  grid-template-columns: 10% 30% 30%;
+}
+
+.special2{
+  display:grid;
+  grid-template-rows: repeat(3,1fr);
+  text-decoration: none;
+}
+
+.special2 img{
+  max-height:85%;
+  max-width: 85%;
+}
+
+.telephone p{
+  padding-top:10px;
+  font-size:140%;
+}
+
+.iconcontainer{
+  display:flex;
+}
+
+.follow p{
+  padding-top:17px;
+  margin-left:10px;
+  font-size:130%;
+}
+
+.timing{
+  display:flex;
+  justify-content: space-between;
+  padding:0px 30px 15px 0px;
+  font-size: 160%;
+}
+
+.timinglist{
+  margin-top:5px;
+}
 
 footer{
   background-color: rgb(112,99,80);
