@@ -92,7 +92,7 @@ main{
 /* Referenced background image opacity code: https://coder-coder.com/background-image-opacity/ */
 .hero::before {    
   content: "";
-  background-image: url('/images/banner.jpg');
+  background-image: url('banner.jpg');
   background-color: #464646;
   background-size: cover;
   background-attachment: fixed;
