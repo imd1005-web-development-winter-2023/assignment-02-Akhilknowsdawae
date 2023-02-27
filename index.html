@@ -1,29 +1,380 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>Baba John's Pizzaria</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- We are using a CSS Reset file to standardize browser default css -->
     <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Logo.png">
   </head>
-  <body>
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+<!-- PLEASE READ: 
+Im so sorry for the super long html and css code,
+I tried my best to be as efficient as possible but 
+noticing how I have more than 600+ lines of css
+with little to no comments may suggest otherwise.
+-->
 
-    -->
-  </body>
+<body>
+    <header>
+      <!--Tried making it so that clicking the logo will send the user to the current page-->
+    <a href="/"><img class="logo" src="Logoname.png" alt="Baba John's Pizzeria"></a>
+
+    <nav class="menu">
+        <ul>
+          <li class="menu2"><a href="/home">HOME</a></li>
+          <li class="menu2"><a href="/menu">MENU</a></li>
+          <li class="menu2"><a href="/about">ABOUT US</a></li>
+          <li class="menu2"><a href="/contact">CONTACT US</a></li>
+          <li class="ordermenu"><a href="/order">ORDER ONLINE / PICKUP</a></li>
+        </ul>
+    </nav>
+  </header>
+
+ <main>
+    <section>
+      <!-- Testing hero section grid spacing. Reference: Grid1.png-->
+      <!-- <div class="divide">
+        <div class="left">
+          <div>hi</div>
+          <div>hi</div>
+          <div class="left2">
+            <div>hi</div>
+            <div>hi</div>
+          </div>
+          <div class="left3">
+            <div>hi</div>
+            <div>hi</div>
+          </div>
+        </div>
+        <div class="right">
+          <div>hi</div>
+        </div>
+      </div> -->
+        <div class="hero">
+          <div class="left">
+            <div class="top-content-main">
+              <h2>Pizza of the week!</h2>
+              <h3> <span class="top-content-main-span">Hawaiian</span> Pizza </h3>
+              <h4> 12" Medium </h4>
+            </div>
+            <div class="top-content-middle">
+              <div class="top-content-left">
+                <h1><span class="top-content-left-span">$</span>16<span class="top-content-left-span">.99</span></h1>
+              </div>
+              <div class="top-content-right">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quaerat fugiat est, error vitae aliquid, a temporibus inventore illum, 
+                  exercitationem consequatur possimus! Dicta quibusdam architecto natus doloribus enim nemo excepturi? </p>
+              </div>
+            </div>
+            <div class="top-content-footer">
+              <div class="top-content-footer-content">
+                <a href="/order">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="main_pizza.png" alt="Picture of Hawaiian pizza">
+          </div>
+        </div>
+    </section> 
+    
+    <section>
+      <div class="middle">
+        <div class="middle-top">
+          <h2>pizza — quite possibly the only perfect food</h2>
+        </div>
+        <div class="middle-content">
+          <div class="middle-content-top-1">
+            <a href="/menu/pizza"><img src="pizza1.jpg" alt="Picture of pizza"></a>
+          </div>
+          <div class="middle-content-top-2">
+            <a href="/menu/pizza"><img src="pizza2.jpg" alt="Picture of pizza"></a>
+          </div>
+          <div class="middle-content-top-3">
+            <a href="/menu/pizza"><img src="pizza3.jpg" alt="Picture of pizza"></a>
+          </div>
+          <div class="middle-content-bottom-1">
+            <a href="/menu/pizza"><img src="pizza4.jpg" alt="Picture of pizza"></a>
+          </div>
+          <div class="middle-content-bottom-2">
+            <a href="/menu/pizza"><img src="pizza5.jpg" alt="Picture of pizza"></a>
+          </div>
+          <div class="middle-content-bottom-3">
+            <a href="/menu/pizza"><img src="pizza6.jpg" alt="Picture of pizza"></a>
+          </div>       
+        </div>
+        <div class="middle-bottom">
+          <a href="/menu">View Our Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="middle3">
+        <div class="middle3-title">
+          <h2>Baba John's has...</h2>
+        </div>
+
+        <div class="middle3-content">
+
+          <div class="middle3-content-1">
+            <div class="middle3-content-icon-1">
+              <img src="pizzaicon.png" alt="Pizza Icon image">
+            </div>
+            <div class="middle3-content-number-2">
+              <h2>20+</h2>
+            </div>
+            <div class="middle3-content-desc-3">
+              <h3>pizza varieties</h3>
+            </div>
+          </div>
+
+          <div class="middle3-content-2">
+            <div class="middle3-content-icon-1">
+              <img src="dishesicon.png" alt="Pizza Icon image">
+            </div>
+            <div class="middle3-content-number-2">
+              <h2>146k</h2>
+            </div>
+            <div class="middle3-content-desc-3">
+              <h3>dishes served</h3>
+            </div>
+          </div>
+
+          <div class="middle3-content-3">
+            <div class="middle3-content-icon-3">
+              <img src="customericon.png" alt="Pizza Icon image">
+            </div>
+            <div class="middle3-content-number-3">
+             <h2>288k</h2>
+            </div>
+            <div class="middle3-content-desc-3">
+              <h3>happy customers</h3>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="middle2">
+        <div class="middle2title">
+          <h2>But wait... We have more!</h2>
+        </div>
+        <div class="middle2sub">
+          <h3>our specialities</h3>
+        </div>
+        <div class="middle2-content">
+          <div class="middle2-content-left-arrow">
+            <a href=""><img src="Left_arrow.png" alt="Left arrow buttom"></a>
+          </div>
+          <div class="middle2-content-cards">
+            <div class="middle2-content-1-img">
+              <a href="/menu/sides"><img src="Gbread.png" alt="Image of Garlic bread"></a>
+            </div>
+            <div class="middle2-content-2-img">
+              <a href="/menu/burgers"><img src="Burger.png" alt="Image of a Burger"></a>
+            </div>
+            <div class="middle2-content-3-img">
+              <a href="/menu/beverages"><img src="Oreo.png" alt="Image of a oreo milkshake"></a>
+            </div>
+            <div class="middle2-content-1-sub">
+              <h4>sides</h4>
+            </div>
+            <div class="middle2-content-2-sub">
+              <h4>burgers</h4>
+            </div>
+            <div class="middle2-content-3-sub">
+              <h4>beverages</h4>
+            </div>
+          </div>
+          <div class="middle2-content-right-arrow">
+            <a href=""><img src="Right_arrow.png" alt="Right arrow buttom"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bottom-top">
+        <div class="bottom-top-title">
+          <h2>Our Delivery Options</h2>
+        </div>
+        <div class="bottom-top-desc">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora dolorem sequi, doloremque culpa fugiat!</p>
+          <p>Illo cum autem est repellendus itaque illum atque modi perferendis. Assumenda ut facere sit culpa.</p>
+        </div>
+        <div class="bottom-top-logos">
+          <div class="bottom-top-uber">
+            <img src="UELogo.png" alt="Delivery Service Icon">
+          </div>
+          <div class="bottom-top-skip">
+            <img src="SkipTheDishesLogo.png" alt="Delivery Service Icon">
+          </div>
+          <div class="bottom-top-door">
+            <img src="DoorDashLogo.png" alt="Delivery Service Icon">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="messageformcontainer">
+      <div class="messageform">
+        <div class="messagetitle">
+          <h2>send us a message</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque quae aperiam expedita architecto. Laborum nobis dolore nam deserunt ex quasi eveniet similique dicta adipisci impedit nesciunt eius, necessitatibus quam?</p>
+        </div>
+        <div class="inputscontainer">
+          <form class="inputs">
+            <div class="name">
+              <h4>Name</h4>
+              <input type="text" id="firstname" name="name" class="firstinput" placeholder="First name">
+              <input type="text" id="lastname" name="name" class="lastname" placeholder="Last name">
+            </div>
+            <div>
+            <h4>Email</h4>
+              <input type="text" id="email" name="email" class="emailinput" required="required">
+            </div>
+            <div>
+              <h4>Subject</h4>
+              <input type="text" id="subject" name="subject" class="subjectinput" required="required">
+            </div>
+            <div>
+              <h4>Message</h4>
+              <!-- Referenced code from: https://www.w3docs.com/snippets/html/how-to-create-a-multi-line-text-input-field-in-html.html-->
+              <textarea id="message" name = "contact" class="messageinput" required="required"></textarea>
+            </div>
+            <div>
+              <button class="button" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="footer-top">
+        <div class="left-container">
+          <div class="location">
+            <div class="locationtitle">
+              <div class="locationicon">
+                <img src="locationicon.png" alt="Location icon">
+              </div>
+              <div class="find">
+                <h4>Find us</h4>
+              </div>
+              <div class="locationlorem">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ut praesentium ipsum tempore totam sed</p>
+                <p class="special">Get Directions</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="telephone">
+            <div class="telephonetitle">
+              <div class="telephoneicon">
+                <img src="phoneicon.png" alt="Icon of a phone">
+              </div>
+              <div class="phone">
+                <h4>Telephone</h4>
+              </div>
+              <div class="special">
+                <p>987-654-3210</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="follow">
+            <div class="followtitle">
+              <div class="followicon">
+                <img src="thumbsupicon.png" alt="Thumbs up icon">
+              </div>
+              <div class="follow">
+                <h4>Follow us</h4>
+              </div>
+              <div class="special2">
+                <div class="iconcontainer">
+                  <img src="instaicon.png" alt="Instagram icon">
+                  <a href="/"><p class="special">Instagram</p></a>
+                </div>
+                <div class="iconcontainer">
+                  <img src="facebookicon.png" alt="Facebook icon">
+                  <a href="/"><p class="special">Facebook</p></a>
+                </div>
+                <div class="iconcontainer">
+                  <img src="twiitericon.png" alt="Twitter icon">
+                  <a href="/"><p class="special">Twitter</p></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="right-container">
+          <div class="timings">
+            <div class="timingtitle">
+              <div class="timingicon">
+                <img src="Clock.png" alt="icon of a clock"> 
+              </div>
+              <div class="hours">
+                <h4>Hours</h4>
+              </div>
+            </div>
+            <div class="timinglist">
+              <ul>
+                <li class="timing">
+                  <p class="days">Monday</p>
+                  <p>11:30am - 11:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Tuesday</p>
+                  <p>11:30am - 10:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Wednesday</p>
+                  <p>11:30am - 10:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Thursday</p>
+                  <p>11:30am - 10:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Friday</p>
+                  <p>11:30am - 11:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Saturday</p>
+                  <p>11:30am - 11:00pm</p>
+                </li>
+                <li class="timing">
+                  <p class="days">Sunday</p>
+                  <p>11:30am - 11:00pm</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ </main>
+
+<footer>
+  <p>@2023 Zui/Pls Products, All Rights Reserved.</p>
+  <a href="/"><img class="logo2" src="Logoname.png" alt="Baba John's Pizzeria"></a>
+  <nav class="menufoot">
+    <ul>
+      <li class="menufooter"><a href="/home">HOME</a></li>
+      <li class="menufooter"><a href="/menu">MENU</a></li>
+      <li class="menufooter"><a href="/about">ABOUT US</a></li>
+      <li class="menufooter"><a href="/contact">CONTACT US</a></li>
+    </ul>
+  </nav>
+</footer>
+</body>
 </html>
